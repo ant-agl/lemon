@@ -219,7 +219,7 @@ section:not(.offer) {
 }
 
 .offer-main {
-  height: 100dvh;
+  height: 100svh;
   position: relative;
   background-color: var(--dark-gray-color);
 }
@@ -672,7 +672,8 @@ section:not(.offer) {
   width: 145px;
 }
 
-.footer__org {
+.footer__org,
+.footer__org a {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
