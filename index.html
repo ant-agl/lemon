@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="./css/fonts.css">
   <link rel="stylesheet" href="./css/style.css">
 
@@ -37,12 +38,18 @@
     <div class="offer-main">
       <div class="container">
         <div class="offer__text">
-          <h1 class="title h1"><span class="highlight">Лимон</span> — ваш надежный помощник в организации и управлении
+          <h1 class="title h1 wow animate__animated animate__zoomIn"><span class="highlight">Лимон</span> — ваш надежный
+            помощник в
+            организации и управлении
             проектами</h1>
-          <p class="text">Ваше время — наша забота: эффективное управление проектами и рабочим временем в одном
+          <p class="text wow animate__animated animate__zoomIn animate__delay-200ms">Ваше время — наша забота:
+            эффективное
+            управление
+            проектами и рабочим временем в одном
             приложении!
           </p>
-          <a href="#" class="btn">Начать работу бесплатно</a>
+          <a href="#" class="btn wow animate__animated animate__zoomIn animate__delay-400ms">Начать
+            работу бесплатно</a>
         </div>
 
         <div class="offer__image">
@@ -68,7 +75,7 @@
             <p class="text">Приложение позволяет пользователям удобно отслеживать свое рабочее время,
               записывать отработанные часы, планировать рабочие смены и отпуска</p>
           </div>
-          <div class="feature-card__image">
+          <div class="feature-card__image wow animate__animated animate__slideInRight">
             <img src="./images/functions/1.png">
           </div>
         </div>
@@ -79,7 +86,7 @@
             <p class="text">Вы сможете легко организовать работу над проектами, распределить задачи и
               контролировать выполнение целей</p>
           </div>
-          <div class="feature-card__image">
+          <div class="feature-card__image wow animate__animated animate__slideInLeft">
             <img src="./images/functions/2.png">
           </div>
         </div>
@@ -90,7 +97,7 @@
             <p class="text">Лимон позволяет создавать индивидуальные отчеты, а также автоматически
               генерировать стандартные отчеты для передачи заказчикам</p>
           </div>
-          <div class="feature-card__image">
+          <div class="feature-card__image wow animate__animated animate__slideInRight">
             <img src="./images/functions/3.png">
           </div>
         </div>
@@ -101,7 +108,7 @@
             <p class="text">Мы предоставляем инструменты для анализа KPI, чтобы вы могли оценить свою
               производительность и принимать обоснованные решения для улучшения результатов</p>
           </div>
-          <div class="feature-card__image">
+          <div class="feature-card__image wow animate__animated animate__slideInLeft">
             <img src="./images/functions/4.png">
           </div>
         </div>
@@ -123,7 +130,7 @@
             </svg>
           </div>
         </div>
-        <div class="video__preview">
+        <div class="video__preview wow animate__animated animate__fadeIn">
           <img src="./images/video/preview.png">
           <div class="video__player"></div>
         </div>
@@ -136,7 +143,7 @@
       <h2 class="title h2">Тарифы</h2>
 
       <div class="tariffs__list">
-        <div class="tariff-card">
+        <div class="tariff-card wow animate__animated animate__fadeInUp">
           <div class="tariff-card__head">
             <h4 class="tariff-card__title title h4">Бесплатно</h4>
             <div class="tariff-card__desc">За 1-го пользователя</div>
@@ -156,7 +163,7 @@
           </div>
         </div>
 
-        <div class="tariff-card">
+        <div class="tariff-card wow animate__animated animate__fadeInUp animate__delay-200ms">
           <div class="tariff-card__label">Выгодно</div>
 
           <div class="tariff-card__head">
@@ -181,7 +188,7 @@
           </div>
         </div>
 
-        <div class="tariff-card">
+        <div class="tariff-card wow animate__animated animate__fadeInUp animate__delay-400ms">
           <div class="tariff-card__head">
             <h4 class="tariff-card__title title h4">1000р/месяц</h4>
             <div class="tariff-card__desc">За 1-го пользователя</div>
@@ -234,7 +241,7 @@
           <button type="submit" class="form__btn btn">Отправить</button>
         </form>
 
-        <div class="contacts">
+        <div class="contacts wow animate__animated animate__fadeIn">
           <h2 class="contacts__title title h2">Контакты</h2>
           <ul class="contacts__list">
             <li class="contacts__item">
@@ -311,6 +318,12 @@
   </footer>
 
   <script src="https://unpkg.com/imask"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    new WOW().init();
+  </script>
   <script src="./js/script.js"></script>
 </body>
 

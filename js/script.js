@@ -28,3 +28,17 @@ document.querySelectorAll(".tel").forEach((tel) => {
   };
   const mask = IMask(tel, maskOptions);
 });
+
+// animate offer img
+function animateOfferImg() {
+  let img = document.querySelector(".offer__image");
+
+  if (window.scrollY < 10 && window.innerWidth > 700) {
+    img.classList.remove("animated");
+  } else {
+    img.classList.add("animated");
+  }
+}
+window.addEventListener("scroll", animateOfferImg);
+window.addEventListener("resize", animateOfferImg);
+animateOfferImg();
