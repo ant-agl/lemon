@@ -779,6 +779,10 @@ section:not(.offer) {
   .tariffs__list {
     flex-direction: column;
   }
+
+  .tariff-card {
+    animation-delay: 0s !important;
+  }
 }
 
 
